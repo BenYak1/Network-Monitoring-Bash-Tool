@@ -4,7 +4,7 @@ A script designed for proactive network and service monitoring, This tool checks
 
 **Watch a demonstration of the script in action:**
 
-[NetworkMonitor-GIF](assets/NetworkMonitor.gif)
+[NetworkMonitor-GIF](https://github.com/BenYak1/network-monitoring-bash-tool/blob/main/assets/NetworkMonitor.gif)
 
 ## Key Features
 
