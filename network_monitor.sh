@@ -191,6 +191,14 @@ check_device() {
 
 # Main function
 main() {
+    # Make sure .env was loaded and required vars exist
+    for var in TOKEN CHAT_ID; do
+        if [[ -z ${!var} ]]; then
+            log_err "$var not set – did you create .env?"
+            exit 1
+        fi
+    done
+    
     ensure_logdir_logfile
     log_info "Starting network monitoring"
     log_to_file "Starting network monitoring"
