@@ -1,0 +1,8 @@
+# Format: name,ip,ports,http_urls
+# Ports should be semicolon-separated, same for http_urls
+# Example: Router,192.168.83.112,80;443;22,192.168.83.112
+
+Router (Phone Hotspot),192.168.83.112,80;443,
+N8N Local Server,192.168.83.38,1716;443;5678,https://6c16-5-28-190-81.ngrok-free.app
+DNS Server,8.8.8.8,53,
+External Website,142.250.75.206,80,www.google.com 

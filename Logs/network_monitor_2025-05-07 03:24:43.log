@@ -1,0 +1,34 @@
+2025-05-07 03:24:43 - Starting network monitoring
+2025-05-07 03:24:43 - Checking device: Router (Phone Hotspot) (192.168.83.112)
+2025-05-07 03:24:43 - Pinging 192.168.83.112
+2025-05-07 03:24:47 - PING OK: 192.168.83.112 (avg: 8.317ms)
+2025-05-07 03:24:47 - Checking port 80 on 192.168.83.112
+2025-05-07 03:24:47 - PORT CLOSED: 192.168.83.112:80
+2025-05-07 03:24:47 - Checking port 443 on 192.168.83.112
+2025-05-07 03:24:47 - PORT CLOSED: 192.168.83.112:443
+2025-05-07 03:24:49 - Telegram Alert Sent Successfuly!
+2025-05-07 03:24:49 - Checking device: N8N Local Server (192.168.83.38)
+2025-05-07 03:24:49 - Pinging 192.168.83.38
+2025-05-07 03:24:53 - PING OK: 192.168.83.38 (avg: 0.045ms)
+2025-05-07 03:24:53 - Checking port 1716 on 192.168.83.38
+2025-05-07 03:24:53 - PORT OK: 192.168.83.38:1716
+2025-05-07 03:24:53 - Checking port 443 on 192.168.83.38
+2025-05-07 03:24:53 - PORT CLOSED: 192.168.83.38:443
+2025-05-07 03:24:53 - Checking port 5678 on 192.168.83.38
+2025-05-07 03:24:53 - PORT OK: 192.168.83.38:5678
+2025-05-07 03:24:53 - Checking HTTP status for https://6c16-5-28-190-81.ngrok-free.app
+2025-05-07 03:24:55 - HTTP FAILED: https://6c16-5-28-190-81.ngrok-free.app (status: 404)
+2025-05-07 03:24:56 - Telegram Alert Sent Successfuly!
+2025-05-07 03:24:56 - Checking device: DNS Server (8.8.8.8)
+2025-05-07 03:24:56 - Pinging 8.8.8.8
+2025-05-07 03:25:00 - PING OK: 8.8.8.8 (avg: 187.010ms)
+2025-05-07 03:25:00 - Checking port 53 on 8.8.8.8
+2025-05-07 03:25:00 - PORT OK: 8.8.8.8:53
+2025-05-07 03:25:00 - Checking device: External Website (142.250.75.206)
+2025-05-07 03:25:00 - Pinging 142.250.75.206
+2025-05-07 03:25:05 - PING OK: 142.250.75.206 (avg: 263.245ms)
+2025-05-07 03:25:05 - Checking port 80 on 142.250.75.206
+2025-05-07 03:25:06 - PORT OK: 142.250.75.206:80
+2025-05-07 03:25:06 - Checking HTTP status for www.google.com
+2025-05-07 03:25:07 - HTTP OK: http://www.google.com (status: 200)
+2025-05-07 03:25:07 - Monitoring completed. Checked 4 devices, 2 had issues.
