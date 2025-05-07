@@ -14,7 +14,7 @@ A script designed for proactive network and service monitoring, This tool checks
 -   **HTTP(S) Endpoint Validation**: Confirms that web services are responding with a `200 OK` status.
 -   **Configurable Device List**: Easily manage target devices and services through a simple text file (`devices.txt`).
 -   **Telegram Alerts**: Sends instant notifications to a specified Telegram chat for any detected anomalies.
-    -   **HTML Formatted Alerts**: Alerts are styled using HTML for better readability in Telegram.
+-   **HTML Formatted Alerts**: Alerts are styled using HTML for better readability in Telegram.
 -   **Secure Credential Management**: Leverages an `.env` file to store sensitive information like API tokens and chat IDs.
 -   **Colorful Console Logging**: Provides clear, color-coded (ANSI) status messages in the terminal for interactive monitoring.
 -   **Detailed File Logging**: Maintains a persistent log file for each run, stored in the `Logs/` directory with a timestamp, for audit and review.
