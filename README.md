@@ -10,11 +10,19 @@ A script designed for proactive network and service monitoring, This tool checks
 ## Key Features
 
 -   **Device Reachability**: Verifies if devices are online using `ping`.
+    [`check_ping`](network_monitor.sh#L52-L71)
 -   **Port Status Monitoring**: Checks if specified TCP ports on target devices are open or closed.
+    [`check_port`](network_monitor.sh#L74-L91)
 -   **HTTP(S) Endpoint Validation**: Confirms that web services are responding with a `200 OK` status.
+    [`check_HTTP`](network_monitor.sh#L94-L116)
 -   **Configurable Device List**: Easily manage target devices and services through a simple text file (`devices.txt`).
+    [`devices`](devices.txt#L1-8)
 -   **Telegram Alerts**: Sends instant notifications to a specified Telegram chat for any detected anomalies.
+    [`alert`](network_monitor.sh#L119-L138)
 -   **HTML Formatted Alerts**: Alerts are styled using HTML for better readability in Telegram.
+    [`tags`](network_monitor.sh#L180)
+    [`tags`](network_monitor.sh#L182)
+    [`tags`](network_monitor.sh#L184)
 -   **Secure Credential Management**: Leverages an `.env` file to store sensitive information like API tokens and chat IDs.
 -   **Colorful Console Logging**: Provides clear, color-coded (ANSI) status messages in the terminal for interactive monitoring.
 -   **Detailed File Logging**: Maintains a persistent log file for each run, stored in the `Logs/` directory with a timestamp, for audit and review.
@@ -27,6 +35,9 @@ The script operates by reading a list of devices from `devices.txt`. For each de
 1.  **Ping Check**: Sends ICMP echo requests to the device's IP address to confirm it's reachable and measures average response time.
 2.  **Port Check**: Attempts to establish a TCP connection to each specified port on the device. It expects these ports to be open and alerts if they are found closed.
 3.  **HTTP(S) Check**: For specified URLs, it sends an HTTP GET request and verifies if the response status code is `200 OK`. It automatically prepends `http://` if no scheme is provided. An example of this is checking a locally hosted N8N service exposed via ngrok, as demonstrated below:
+
+    ![Screenshot 2025-05-07 063825](https://github.com/user-attachments/assets/53c27312-babe-44d2-93ff-40e819e38ef4)
+
     ![NGrok receiving request](assets/ngrok.png)
 
 If any of these checks fail, an alert message detailing the issue is constructed and sent via the Telegram Bot API. All actions and results are also logged to both the console and a dedicated log file.
