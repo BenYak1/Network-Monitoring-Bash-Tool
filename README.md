@@ -3,7 +3,8 @@
 A script designed for proactive network and service monitoring, This tool checks the health of specified network devices and services, providing real-time alerts via Telegram-bot for any detected issues.
 
 **Watch a demonstration of the script in action:**
-[NetworkMonitor.mp4](assets/NetworkMonitor.mp4)
+
+[NetworkMonitor-GIF](assets/NetworkMonitor.gif)
 
 ## Key Features
 
@@ -156,6 +157,7 @@ The script implements two types of logging:
     -   Records all checks, successes, failures, and alert statuses.
 
 Here's an example of the script's log output from a run:
+
 ![Sample Log Output](assets/network_monitor_log.png)
 
 
