@@ -4,7 +4,7 @@ A script designed for proactive network and service monitoring, This tool checks
 
 **Watch a demonstration of the script in action:**
 
-![NetworkMonitor](https://github.com/user-attachments/assets/0b8ff227-5265-4bc9-ba88-4744f55ae6ad)
+![NetworkMonitor (1)](https://github.com/user-attachments/assets/d1d7d4db-fcef-4f93-92b2-0dd5cc51812e)
 
 
 ## Key Features
