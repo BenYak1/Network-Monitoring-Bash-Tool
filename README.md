@@ -174,10 +174,6 @@ Here's an example of the script's log output from a run:
 ![Sample Log Output](assets/network_monitor_log.png)
 
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Author
 
 Ben Yakoubov
